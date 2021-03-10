@@ -1,0 +1,11 @@
+p{
+    color: red;
+}
+h1,h3{
+
+    background-color:sandybrown;
+}
+h1+h3{
+
+    color: blue;
+}
