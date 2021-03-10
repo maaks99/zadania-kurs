@@ -1,0 +1,16 @@
+p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.niebieski{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.przezroczysty{
+    width: 100px;
+    height: 100px;
+    opacity: 0.2;
+     
+}
