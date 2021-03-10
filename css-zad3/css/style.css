@@ -1,0 +1,23 @@
+div{
+    background-color:#faebd6 ;
+    width: 900px;
+    height: 350px; 
+    margin:auto;
+     
+}
+
+h1{
+    color: #ff0000;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#tekst1{
+    color: #a42423 ;
+    padding-left: 10px;
+
+}
+#tekst2{
+
+    color: #00008f;
+    padding-left: 10px;
+}
