@@ -1,56 +1,40 @@
-div{
+.tło{
    background-color: #f5f5dd;
    width: 400px;
-   height: 650px;
+   height: 600px;
    margin: auto;
-   margin-top: 140px;
-   padding-top: 10px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   padding-top: 40px;
    
    
 }
+.tło div{
+
+width:120px ;
+height: 120px;
+margin: auto;
+margin-top: 10px;
+}
+#czern{
    
-  
-
-
-#czarny{
-
-   width:130px ;
-   height: 120px;
-   background-color: rgba(0, 0, 0, 1);
-   margin: auto;  
-   margin-bottom: 5px;
-   margin-top: 30px;
-   
-   
-
+   background-color: rgba(0,0,0,1);
 }
 #szary{
 
-   width:130px ;
-   height: 120px;
-   background-color:rgba(0, 0, 0, 0.7);
-   margin: auto;  
-   margin-bottom: 5px;
-  
-
+   background-color: rgba(0,0,0,0.7);
 }
 #szary2{
 
-   width:130px ;
-   height: 120px;
-   background-color: rgba(0, 0, 0, 0.4);
-   margin: auto;  
-   margin-bottom: 5px;
-   
-
+   background-color: rgba(0,0,0,0.4);
 }
 #szary3{
 
-   width:130px ;
-   height: 120px;
-   background-color: rgba(0, 0, 0, 0.2);
-   margin: auto;  
-   margin-bottom: 5px;
-   
-
+   background-color: rgba(0,0,0,0.2);
 }
+  
+
+
