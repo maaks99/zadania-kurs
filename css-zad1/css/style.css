@@ -1,4 +1,4 @@
-h1{
+.tło{
 
 width: 300px ;
 height: 650px;
@@ -13,20 +13,23 @@ bottom: 0;
 left: 0;
 right:0;
 
-
-
-
-
-
 }
 
-h1 div{
+.tło div{
 
 width: 130px;
 height: 130px;
 background-color: #fea500;
-margin-top: 15px;
+margin-top: 10px;
 margin-left: 10px;
+
+
+}
+h1{
+    text-align: center;
+    margin-right: 160px;
+    margin-top: 5px;
+    
 
 }
 
