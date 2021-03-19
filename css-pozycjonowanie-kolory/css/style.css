@@ -1,0 +1,73 @@
+body{
+    background-color: #201f1f;
+  }
+  .big-box{
+    width: 450px;
+    height:450px ;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+       
+  }
+  .box{
+    width: 150px;
+    height:150px;
+    border: 2px solid white;
+    flex-basis: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .circle{
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+  }
+
+  .red{
+    background-color: red;
+    
+     
+  }
+  .blue{
+    background-color: blue;
+    
+    
+  }
+  .green{
+    background-color: green;
+   
+  }
+  .yellow{
+    background-color: yellow;
+    
+  }
+  .black{
+    background-color: black;
+   
+  }
+  .orange{
+    background-color: orange;
+    
+  }
+  .purple{
+    background-color: purple;
+    
+  }
+  .gray{
+    background-color: gray;
+    
+    
+  }
+  .pink{
+    background-color: pink;
+  }
+  
