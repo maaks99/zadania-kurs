@@ -1,0 +1,69 @@
+body {
+    font-size: 80px;
+    color:white;
+}
+
+.timer {
+    width: 400px;
+    height: 200px;
+    background-color:black ;
+    position: relative;
+}
+
+.timer1 {
+    visibility: hidden;
+    animation-name: time;
+    animation-duration: 1s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nine {
+    animation-delay: 1s;
+}
+
+.eight {
+    animation-delay: 2s;
+}
+
+.seven {
+    animation-delay: 3s;
+}
+
+.six {
+    animation-delay: 4s;
+}
+
+.five {
+    animation-delay: 5s;
+}
+
+.four {
+    animation-delay: 6s;
+}
+
+.three {
+    animation-delay: 7s;
+}
+
+.two {
+    animation-delay: 8s;
+}
+
+.one {
+    animation-delay: 9s;
+}
+
+.text {
+    animation-delay: 10s;
+}
+
+@keyframes time {
+    0%{
+        visibility: visible;
+    }
+
+}
+    
