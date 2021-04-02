@@ -9,37 +9,77 @@ let mathS = document.querySelector('.mathSign');
 
 let result = '';
 
-const displayNumber = () => {
+const displayNumber = (event) => {
 
-    if(this.textContent === '.' && curNumber.innerHTML.includes('.')) {
+    if(event.target.textContent === '.' && curNumber.innerHTML.includes('.')) {
 
         return;
     }
 
-    if(this.textContent === '.' && curNumber.innerHTML === '') {
+    if(event.target.textContent === '.' && curNumber.innerHTML === '') {
 
         return curNumber.innerHTML = '.0'
     }
 
-    curNumber.innerHTML += this.textContent;
-    console.log(curNumber);
+    curNumber.innerHTML += event.target.textContent;
 } 
 
-const operate = () =>  {
+const operate = (event) =>  {
 
-    if(curNumber.innerHTML === '' && this.textContent === '-') {
+    if(curNumber.innerHTML === '' && event.target.textContent === '-') {
         curNumber.innerHTML = '-';
         return;
+    } else if (curNumber.innerHTML === '') {
+        return;
     }
+    if(mathS.innerHTML !== '') {
+        showResult();
+    }
+    prevNumber.innerHTML = curNumber.innerHTML;
+    mathS.innerHTML = event.target.textContent;
+    curNumber.innerHTML = '';
 }
 
-const showResult = () => {
-    
+const showResult = (event) => {
+    if (prevNumber.innerHTML === '' || curNumber.innerHTML === '') {
+        return;
+    }
+
+    let a = Number(curNumber.innerHTML);
+    let b = Number(prevNumber.innerHTML);
+    let oper = mathS.innerHTML;
+
+    switch(oper) {
+        case '+':
+            result = a+b;
+            break;
+        case '-':
+            result = b-a;
+            break;
+        case 'x':
+            result = a*b;
+            break;
+        case '÷':
+            result = b/a;
+            break;
+        case '%':
+            result = a/100 * b;
+            break;
+
+    }
+
+    curNumber.innerHTML = result;
+    prevNumber.innerHTML = '';
+    mathS.innerHTML = '';
 }
 
-const clearScreen = () => {
-    
+const clearScreen = (event) => {
+    curNumber.innerHTML = '';
+    prevNumber.innerHTML = '';
+    mathS.innerHTML = '';
+    result = '';
 }
+
 
  liczby.forEach((button) => {
      button.addEventListener('click',displayNumber)

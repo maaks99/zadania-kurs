@@ -59,9 +59,11 @@ button {
     border: 0;
     outline: none;
     transition: all .2s ease-in-out;
+    border-radius: 10%;
 }
 
-button:hover {
+
+.liczba:hover {
     background-color: rgb(49, 47, 47);
 }
 
@@ -74,14 +76,26 @@ button:hover {
     background-color: rgb(66, 64, 64);
 }
 
+.operator:hover {
+    background-color: rgb(8, 12, 230);
+}
+
 .wyczysc, .row-two {
     width: 136px;
 }
 
 .wyczysc {
-    background-color: rgb(85, 174, 246);
+    background-color: rgb(206, 53, 53);
+}
+
+.wyczysc:hover {
+    background-color: red;
 }
 
 .rownosc {
     background-color: green;
+}
+
+.rownosc:hover {
+    background-color: rgb(57, 177, 57);
 }
