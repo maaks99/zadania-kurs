@@ -1,0 +1,87 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 2, 47);
+}
+.main {
+    background-color: orange;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.display {
+    background-color: rgb(95, 94, 94);
+    padding: 15px;
+    width: 246px;
+    min-height: 40px;
+    text-align: right;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    word-break: break-all;
+}
+.previousNumber,.mathSign,.currentNumber {
+    text-align: right;
+}
+
+.currentNumber {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.mathSign {
+    font-size: 25px;
+}
+
+.previousNumber {
+    color: rgb(37, 35, 35);
+}
+
+button {
+    padding: 10px;
+    width: 66px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(49, 47, 47);
+}
+
+.wynik {
+    font-size:35px;
+    font-weight: 500;
+}
+
+.operator {
+    background-color: rgb(66, 64, 64);
+}
+
+.wyczysc, .row-two {
+    width: 136px;
+}
+
+.wyczysc {
+    background-color: rgb(85, 174, 246);
+}
+
+.rownosc {
+    background-color: green;
+}
