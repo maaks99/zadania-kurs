@@ -1,0 +1,51 @@
+#pracownicy {
+    background-color: rgb(160, 153, 153);
+    display: inline-block;
+}
+#uczen1, #uczen2, #uczen3,#uczen4,#uczen5,#uczen6,#uczen7,#uczen8,#uczen9,#uczen10,#uczen11,#uczen12,#uczen13,#uczen14,#uczen15,#uczen16,#uczen17,#uczen18,#uczen19,#uczen20 {
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+input {
+    background-color: burlywood;
+}
+
+input {
+    text-align: center;
+}
+
+.tytul {
+    margin: 0;
+    padding: 60px;
+    color:rgb(105, 27, 231) ;
+}
+
+.uczen {
+    padding: 0;
+    margin-left: 20px;
+    width: 155px;
+    display: inline-block;
+}
+
+#oblicz {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 700;
+}
+
+#oblicz:hover {
+    transition: 0.3s;
+    background-color: greenyellow;
+}

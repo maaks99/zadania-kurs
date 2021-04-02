@@ -1,0 +1,57 @@
+#pracownicy {
+    background-color:rgb(204, 236, 162);
+    display: inline-block;
+}
+
+ #tytul-czas,#tytul-stawka,#tytul-wyplata {
+  padding: 65px;
+  color:blue;
+  text-transform: uppercase;
+}
+
+#tytul-czas,#tytul-stawka {
+ margin-left: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tytul-pracownik{
+color: blue;
+}
+
+
+#tytul-pracownik , .pracownik {
+    padding: 10px;
+}
+
+#pracownik , .czas ,.stawka {
+    margin-top: 15px ;
+}
+.czas ,.stawka {
+    text-align: center;
+}
+
+#oblicz {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color:black;
+    border: 0;
+    background-color:orangered;
+    font-weight: 600;
+}
+
+#oblicz:hover {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+.pracownik {
+    width: 150px;
+    display: inline-block;
+}
