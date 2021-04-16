@@ -4,7 +4,7 @@ $(document).ready(function(){
         
         $.getJSON('https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php')
         .done(function(data){
-
+            
             let pComp = $('<p></p>').text(`Firma: ${data.firma}`);
             let pName = $('<p></p>').text(`Imie: ${data.imie}`);
             let pLname = $('<p></p>').text(`Nazwisko: ${data.nazwisko}`);
@@ -30,3 +30,4 @@ $(document).ready(function(){
 
     });
 });
+
