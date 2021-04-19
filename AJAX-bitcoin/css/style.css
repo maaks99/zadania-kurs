@@ -1,0 +1,21 @@
+p {
+    font-weight: 300;
+}
+
+.fa-arrow-up {
+    color: green;
+}
+
+.fa-arrow-down {
+    color: red;
+}
+
+.linia {
+    color: blue;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+i {
+    display: inline-block;
+}
